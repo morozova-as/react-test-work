@@ -1,0 +1,16 @@
+.black {
+	width: 100px;
+	height: 100px;
+	background: black;
+}
+
+.black:not(:first-of-type) {
+	margin-top: 20px;
+}
+
+.grey {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	background: grey;
+}
